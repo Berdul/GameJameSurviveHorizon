@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637801179110000000
-    m_Hash: 2641351944
+      ticks: 637801244520000000
+    m_Hash: 1288448585
   m_LockFileStatus:
     m_FilePath: /Users/bertrand/Dev/Unity/GameJamSurviveHorizon/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637801179140000000
-    m_Hash: 3539099538
+      ticks: 637801244600000000
+    m_Hash: 1053318899
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -121,6 +121,7 @@ m_PackageAssets:
         - 7.0.3
         - 8.0.0-pre.3
         - 8.0.0-pre.4
+        - 8.0.0
         compatible:
         - 5.0.9
         - 5.0.10
@@ -327,6 +328,7 @@ m_PackageAssets:
         - 6.0.2
         - 7.0.0-pre.3
         - 7.0.0-pre.4
+        - 7.0.0
         compatible:
         - 4.1.2
         - 4.1.3
@@ -523,6 +525,7 @@ m_PackageAssets:
         - 7.0.3
         - 8.0.0-pre.4
         - 8.0.0-pre.5
+        - 8.0.0
         compatible:
         - 5.1.5
         - 5.1.6
@@ -689,10 +692,12 @@ m_PackageAssets:
         - 1.14.4
         - 1.14.7
         - 1.14.9
+        - 1.14.12
         - 1.15.1
         - 1.15.4
         - 1.15.7
         - 1.15.9
+        - 1.15.12
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -709,10 +714,12 @@ m_PackageAssets:
         - 1.14.4
         - 1.14.7
         - 1.14.9
+        - 1.14.12
         - 1.15.1
         - 1.15.4
         - 1.15.7
         - 1.15.9
+        - 1.15.12
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -819,6 +826,7 @@ m_PackageAssets:
         - 3.0.7
         - 3.0.9
         - 3.0.10
+        - 3.0.12
         compatible:
         - 1.0.2
         - 1.0.6
@@ -847,6 +855,7 @@ m_PackageAssets:
         - 3.0.7
         - 3.0.9
         - 3.0.10
+        - 3.0.12
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -1006,6 +1015,7 @@ m_PackageAssets:
         - 1.2.2
         - 1.2.3
         - 1.2.4
+        - 1.2.5
         compatible:
         - 1.0.2
         - 1.0.3
@@ -1019,7 +1029,8 @@ m_PackageAssets:
         - 1.2.2
         - 1.2.3
         - 1.2.4
-        verified: 1.2.4
+        - 1.2.5
+        verified: 1.2.5
       dependencies: []
       resolvedDependencies: []
       keywords: []
@@ -1391,7 +1402,9 @@ m_PackageAssets:
         - 1.6.1
         - 1.6.2
         - 1.6.3
+        - 1.6.4
         - 1.7.0-pre.1
+        - 1.7.0-pre.2
         compatible:
         - 1.4.8
         - 1.5.0-pre.2
@@ -1415,7 +1428,9 @@ m_PackageAssets:
         - 1.6.1
         - 1.6.2
         - 1.6.3
+        - 1.6.4
         - 1.7.0-pre.1
+        - 1.7.0-pre.2
         verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
@@ -3135,6 +3150,54 @@ m_PackageAssets:
       - name: com.unity.modules.subsystems
         version: 1.0.0
       keywords: []
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.h8man.2d.navmeshplus@https://github.com/h8man/NavMeshPlus.git#master
+      testable: 0
+      isDirectDependency: 1
+      version: 0.1.0
+      source: 5
+      resolvedPath: /Users/bertrand/Dev/Unity/GameJamSurviveHorizon/Library/PackageCache/com.h8man.2d.navmeshplus@fd5a16f349
+      assetPath: Packages/com.h8man.2d.navmeshplus
+      name: com.h8man.2d.navmeshplus
+      displayName: NavMeshPlus
+      author:
+        name: 
+        email: 
+        url: 
+      category: 2D
+      type: 
+      description: NavMesh building components provide you with ability to create
+        navigation meshes that are generated automatically from your Scene geometry,
+        which allows characters to move intelligently around the game world.
+      status: 4
+      errors: []
+      versions:
+        all: []
+        compatible: []
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - 2d
       registry:
         id: 
         name: 
